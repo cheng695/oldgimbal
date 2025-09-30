@@ -1,0 +1,119 @@
+*** Using Compiler 'V6.22', folder: 'F:\keil5\ARM\ARMCLANG\Bin'
+Build target 'OmnidirectionalChassis_A_board_2026_Season'
+Note: source file '.\User\Low\ControllerAreaNetwork\UserCan.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\UserCan.o' to 'OmnidirectionalChassis_A_board_2026_Season\usercan_1.o'.Note: source file '.\User\Low\MotorLibrary\BenMo.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\BenMo.o' to 'OmnidirectionalChassis_A_board_2026_Season\benmo_1.o'.Note: source file '.\User\Low\MotorLibrary\DaMiao.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\DaMiao.o' to 'OmnidirectionalChassis_A_board_2026_Season\damiao_1.o'.Note: source file '.\User\Low\MotorLibrary\DJIMotor.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\DJIMotor.o' to 'OmnidirectionalChassis_A_board_2026_Season\djimotor_1.o'.Note: source file '.\User\Low\UniversalAsynchronousTransceiver\IMU.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\IMU.o' to 'OmnidirectionalChassis_A_board_2026_Season\imu_1.o'.Note: source file '.\User\Low\UniversalAsynchronousTransceiver\SerialCallback.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\SerialCallback.o' to 'OmnidirectionalChassis_A_board_2026_Season\serialcallback_1.o'.Note: source file '.\User\Low\UniversalAsynchronousTransceiver\Clicker.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\Clicker.o' to 'OmnidirectionalChassis_A_board_2026_Season\clicker_1.o'.Note: source file '.\User\Middle\MotorControl\ADRC.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\ADRC.o' to 'OmnidirectionalChassis_A_board_2026_Season\adrc_1.o'.Note: source file '.\User\Middle\MotorControl\Feedback.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\Feedback.o' to 'OmnidirectionalChassis_A_board_2026_Season\feedback_1.o'.Note: source file '.\User\Middle\MotorControl\Invoke.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\Invoke.o' to 'OmnidirectionalChassis_A_board_2026_Season\invoke_1.o'.Note: source file '.\User\Middle\MotorControl\PID.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\PID.o' to 'OmnidirectionalChassis_A_board_2026_Season\pid_1.o'.Note: source file '.\User\Middle\Gimbal\Towards.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\Towards.o' to 'OmnidirectionalChassis_A_board_2026_Season\towards_1.o'.Note: source file '.\User\Middle\Communication\BoardCommunication_AtoC.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\BoardCommunication_AtoC.o' to 'OmnidirectionalChassis_A_board_2026_Season\boardcommunication_atoc_1.o'.Note: source file '.\User\Middle\LaunchMechanism\Dial.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\Dial.o' to 'OmnidirectionalChassis_A_board_2026_Season\dial_1.o'.Note: source file '.\User\Middle\LaunchMechanism\FrictionWheel.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\FrictionWheel.o' to 'OmnidirectionalChassis_A_board_2026_Season\frictionwheel_1.o'.Note: source file '.\User\Middle\Vision\Visual.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\Visual.o' to 'OmnidirectionalChassis_A_board_2026_Season\visual_1.o'.Note: source file '.\User\High\Task\TaskProcess.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\TaskProcess.o' to 'OmnidirectionalChassis_A_board_2026_Season\taskprocess_1.o'.Note: source file '.\User\Middle\RemoteControl\RemoteOperation.hpp' - object file renamed from 'OmnidirectionalChassis_A_board_2026_Season\RemoteOperation.o' to 'OmnidirectionalChassis_A_board_2026_Season\remoteoperation_1.o'.User/Middle/MotorControl/Invoke.cpp(1): warning: In file included from...User/Middle/MotorControl\Invoke.hpp(4): warning: In file included from...User/Middle/MotorControl\PID.hpp(4): warning: In file included from...User/Middle/MotorControl\../RemoteControl/RemoteOperation.hpp(5): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(13): error: use of undeclared identifier 'RemoteOperation'
+   13 | extern RemoteOperation::Motortarget M6020_206_Remove;
+      |        ^
+User/Middle/MotorControl/Invoke.cpp(1): warning: In file included from...User/Middle/MotorControl\Invoke.hpp(7): warning: In file included from..../User\../User/Low/MotorLibrary/DaMiao.hpp(30): error: missing default argument on parameter 'recv_id'
+   30 |             uint32_t recv_id)
+      |                      ^
+2 errors generated.
+compiling Invoke.cpp...
+User/Low/ControllerAreaNetwork/UserCan.hpp(5): warning: In file included from...User/Low/ControllerAreaNetwork\../MotorLibrary/DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+User/Low/ControllerAreaNetwork/UserCan.hpp(6): warning: In file included from...User/Low/ControllerAreaNetwork\../MotorLibrary/DaMiao.hpp(30): error: missing default argument on parameter 'recv_id'
+   30 |             uint32_t recv_id)
+      |                      ^
+2 errors generated.
+compiling UserCan.hpp...
+User/Middle/MotorControl/PID.cpp(1): warning: In file included from...User/Middle/MotorControl\PID.hpp(4): warning: In file included from...User/Middle/MotorControl\../RemoteControl/RemoteOperation.hpp(5): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(13): error: use of undeclared identifier 'RemoteOperation'
+   13 | extern RemoteOperation::Motortarget M6020_206_Remove;
+      |        ^
+1 error generated.
+compiling PID.cpp...
+User/Low/ControllerAreaNetwork/UserCan.cpp(1): warning: In file included from...User/Low/ControllerAreaNetwork\UserCan.hpp(5): warning: In file included from...User/Low/ControllerAreaNetwork\../MotorLibrary/DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+User/Low/ControllerAreaNetwork/UserCan.cpp(1): warning: In file included from...User/Low/ControllerAreaNetwork\UserCan.hpp(6): warning: In file included from...User/Low/ControllerAreaNetwork\../MotorLibrary/DaMiao.hpp(30): error: missing default argument on parameter 'recv_id'
+   30 |             uint32_t recv_id)
+      |                      ^
+2 errors generated.
+compiling UserCan.cpp...
+User/Low/UniversalAsynchronousTransceiver/SerialCallback.hpp(5): warning: In file included from..../User\../User/Middle/Communication/BoardCommunication_AtoC.hpp(6): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+1 error generated.
+compiling SerialCallback.hpp...
+User/Low/MotorLibrary/DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+1 error generated.
+compiling DJIMotor.hpp...
+User/Low/MotorLibrary/DJIMotor.cpp(1): warning: In file included from...User/Low/MotorLibrary\DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+1 error generated.
+compiling DJIMotor.cpp...
+User/Low/MotorLibrary/DaMiao.hpp(4): warning: In file included from...User/Low/MotorLibrary\DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+User/Low/MotorLibrary/DaMiao.hpp(30): error: missing default argument on parameter 'recv_id'
+   30 |             uint32_t recv_id)
+      |                      ^
+2 errors generated.
+compiling DaMiao.hpp...
+User/Low/UniversalAsynchronousTransceiver/SerialCallback.cpp(1): warning: In file included from...User/Low/UniversalAsynchronousTransceiver\SerialCallback.hpp(5): warning: In file included from..../User\../User/Middle/Communication/BoardCommunication_AtoC.hpp(6): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+1 error generated.
+compiling SerialCallback.cpp...
+User/Low/MotorLibrary/DaMiao.cpp(1): warning: In file included from...User/Low/MotorLibrary\DaMiao.hpp(4): warning: In file included from...User/Low/MotorLibrary\DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+User/Low/MotorLibrary/DaMiao.cpp(1): warning: In file included from...User/Low/MotorLibrary\DaMiao.hpp(30): error: missing default argument on parameter 'recv_id'
+   30 |             uint32_t recv_id)
+      |                      ^
+2 errors generated.
+compiling DaMiao.cpp...
+User/Middle/MotorControl/PID.hpp(4): warning: In file included from...User/Middle/MotorControl\../RemoteControl/RemoteOperation.hpp(5): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(13): error: use of undeclared identifier 'RemoteOperation'
+   13 | extern RemoteOperation::Motortarget M6020_206_Remove;
+      |        ^
+1 error generated.
+compiling PID.hpp...
+User/High/Task/TaskProcess.hpp(7): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+User/High/Task/TaskProcess.hpp(9): warning: In file included from..../User\../User/Middle/MotorControl/Invoke.hpp(7): warning: In file included from..../User\../User/Low/MotorLibrary/DaMiao.hpp(30): error: missing default argument on parameter 'recv_id'
+   30 |             uint32_t recv_id)
+      |                      ^
+2 errors generated.
+compiling TaskProcess.hpp...
+User/Middle/RemoteControl/RemoteOperation.cpp(1): warning: In file included from...User/Middle/RemoteControl\RemoteOperation.hpp(5): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(13): error: use of undeclared identifier 'RemoteOperation'
+   13 | extern RemoteOperation::Motortarget M6020_206_Remove;
+      |        ^
+1 error generated.
+compiling RemoteOperation.cpp...
+User/Middle/RemoteControl/RemoteOperation.hpp(5): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(13): error: use of undeclared identifier 'RemoteOperation'
+   13 | extern RemoteOperation::Motortarget M6020_206_Remove;
+      |        ^
+1 error generated.
+compiling RemoteOperation.hpp...
+User/Middle/Communication/BoardCommunication_AtoC.cpp(1): warning: In file included from...User/Middle/Communication\BoardCommunication_AtoC.hpp(6): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+1 error generated.
+compiling BoardCommunication_AtoC.cpp...
+User/Middle/Communication/BoardCommunication_AtoC.hpp(6): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+1 error generated.
+compiling BoardCommunication_AtoC.hpp...
+User/Middle/MotorControl/Invoke.hpp(4): warning: In file included from...User/Middle/MotorControl\PID.hpp(4): warning: In file included from...User/Middle/MotorControl\../RemoteControl/RemoteOperation.hpp(5): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(13): error: use of undeclared identifier 'RemoteOperation'
+   13 | extern RemoteOperation::Motortarget M6020_206_Remove;
+      |        ^
+User/Middle/MotorControl/Invoke.hpp(7): warning: In file included from..../User\../User/Low/MotorLibrary/DaMiao.hpp(30): error: missing default argument on parameter 'recv_id'
+   30 |             uint32_t recv_id)
+      |                      ^
+2 errors generated.
+compiling Invoke.hpp...
+User/High/Task/TaskProcess.cpp(1): warning: In file included from...User/High/Task\TaskProcess.hpp(7): warning: In file included from..../User\../User/Low/MotorLibrary/DJIMotor.hpp(6): warning: In file included from..../User\../User/Middle/RemoteControl/RemoteOperation.hpp(8): error: use of undeclared identifier 'motor'
+    8 | extern motor::DJIMotor M6020_206;
+      |        ^
+User/High/Task/TaskProcess.cpp(1): warning: In file included from...User/High/Task\TaskProcess.hpp(9): warning: In file included from..../User\../User/Middle/MotorControl/Invoke.hpp(7): warning: In file included from..../User\../User/Low/MotorLibrary/DaMiao.hpp(30): error: missing default argument on parameter 'recv_id'
+   30 |             uint32_t recv_id)
+      |                      ^
+2 errors generated.
+compiling TaskProcess.cpp...
+"OmnidirectionalChassis_A_board_2026_Season\OmnidirectionalChassis_A_board_2026_Season.axf" - 26 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:06
